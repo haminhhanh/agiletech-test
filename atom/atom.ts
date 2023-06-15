@@ -1,0 +1,4 @@
+export enum ATOM {
+  AUTHEN = 'AUTHEN',
+  BLUETOOTH_SCANNER = 'BLUETOOTH_SCANNER',
+}

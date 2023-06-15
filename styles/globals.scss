@@ -1,0 +1,69 @@
+@import "antd/dist/antd.css";
+@import "./reset.scss";
+@import "./font.scss";
+@import "./color.scss";
+@import "./custom-antd.scss";
+@import "./button.scss";
+
+
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'arial';
+  // font-size: 14px;
+  // line-height: normal;
+  text-rendering: optimizeSpeed;
+  color: white;
+  // overflow: hidden;
+
+}
+
+.main-body {
+  display: flex;
+  height: calc(100vh - 84px);
+}
+
+.main-content {
+  width: calc(100% - 313px);
+  background-color: #252527;
+}
+.button {
+  width: 100%;
+  color: #fff;
+  background: #1890ff;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+  margin-top: 40px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 4;
+}
+.error-text {
+  color: #f41515;
+  text-align: left;
+  margin-top: 5px;
+  display: block;
+  font-size: 14px;
+}
+
+.wrapper-select-sale {
+  position: relative;
+  margin-bottom: 25px;
+}
+.wrapper-select-sale .warning-500 {
+  right: 0;
+}
+.input-sale {
+  background: transparent !important;
+  width: 100%;
+  border: none !important;
+  height: 40px;
+}
+
+.rc-select-dropdown-hidden {
+  display: none;
+}

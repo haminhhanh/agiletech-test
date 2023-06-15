@@ -1,0 +1,33 @@
+.navbar_ctrl {
+  background-color: #1D1D1F;
+  width: 20%;
+  height: calc(100vh - 84px);
+  padding: 20px;
+}
+
+.menu_item {
+  padding: 12px 20px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  span{
+    color:white
+  }
+}
+.logout{
+  padding: 12px 20px;
+  cursor: pointer;
+  color:white
+
+}
+
+.menu_item_active {
+  padding: 12px 20px;
+  background: rgb(88, 84, 84);
+  border-radius: 4px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  span{
+    color:white
+  }
+}
